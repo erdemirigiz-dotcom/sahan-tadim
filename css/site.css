@@ -253,7 +253,7 @@ button, .btn{ font-family:var(--govde); cursor:pointer; }
 .rezervasyon-alan{ background:var(--sut); border-top:var(--kenar); border-bottom:var(--kenar); }
 .rez-izgara{ display:grid; grid-template-columns:.9fr 1.1fr; gap:3rem; margin-top:2.2rem; }
 .rez-bilgi p{ margin-bottom:1rem; font-size:.96rem; }
-.rez-bilgi a{ color:var(--kor); text-decoration:underline; }
+.rez-bilgi a{ color:var(--kor); text-decoration:underline; display:inline-block; padding:.35rem 0; }
 form.rez-form{ display:grid; gap:1rem; }
 .alan{ display:grid; gap:.4rem; }
 .alan label{ font-size:.82rem; color:var(--kul); letter-spacing:.02em; }
@@ -289,8 +289,8 @@ form.rez-form{ display:grid; gap:1rem; }
   font-size:.95rem; border-radius:var(--radius); display:flex; align-items:center; gap:.6rem;
 }
 .harita-yukle-btn:hover{ background:var(--sut); color:var(--is); }
-.harita-alt{ margin-top:1rem; display:flex; flex-wrap:wrap; gap:1.4rem; font-size:.9rem; color:var(--kul); }
-.harita-alt a{ color:var(--kor); text-decoration:underline; }
+.harita-alt{ margin-top:1rem; display:flex; flex-wrap:wrap; align-items:center; gap:1.4rem; font-size:.9rem; color:var(--kul); }
+.harita-alt a{ color:var(--kor); text-decoration:underline; display:inline-block; padding:.5rem 0; }
 @media (max-width:640px){ .harita-kutu{ aspect-ratio:4/5; } }
 
 /* ─── FOOTER ────────────────────────────────────────────────────────── */
@@ -304,7 +304,7 @@ footer.altbilgi{ background:var(--is); color:rgba(251,249,245,.72); padding:3.2r
   font-family:var(--veri); font-size:.72rem; letter-spacing:.1em; text-transform:uppercase;
   color:var(--bakir); margin-bottom:.7rem;
 }
-.altbilgi-sutun a, .altbilgi-sutun span{ display:block; font-size:.9rem; margin-bottom:.4rem; color:inherit; text-decoration:none; }
+.altbilgi-sutun a, .altbilgi-sutun span{ display:block; font-size:.9rem; padding:.35rem 0; color:inherit; text-decoration:none; }
 .altbilgi-alt{
   margin-top:1.6rem; display:flex; flex-wrap:wrap; justify-content:space-between; gap:.8rem;
   font-size:.8rem; color:var(--kul);
