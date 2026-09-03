@@ -309,7 +309,7 @@ footer.altbilgi{ background:var(--is); color:rgba(251,249,245,.72); padding:3.2r
   margin-top:1.6rem; display:flex; flex-wrap:wrap; justify-content:space-between; gap:.8rem;
   font-size:.8rem; color:var(--kul);
 }
-.altbilgi-alt a{ color:var(--kul); text-decoration:underline; }
+.altbilgi-alt a{ color:var(--kul); text-decoration:underline; display:inline-block; padding:.65rem 0; }
 
 /* ─── GSAP GİRİŞ (bilesenler/gsap-giris-sablonu deseni) ────────────────
    [data-gsap] her zaman görünür; yalnız html.gsap-bekliyor içindeyken gizli
